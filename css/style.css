@@ -1,0 +1,49 @@
+.navbar h1{
+    color: aliceblue;
+    font-size: 2rem !important;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background: #3abaff;
+    margin: 3px;
+    padding: .5rem;
+    border-radius: 10px;
+    width:auto;
+}
+.button:hover{
+    background: #398bb7;
+}
+
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+table{
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr th, tr td{
+    border: 0px;
+    padding: 20px;
+}
+
+
+thead{
+    background: #0068a1;
+    border-bottom: solid 2px #15342d;
+    color: #fff;
+}
+
+.col-md-3 {
+    position: fixed;
+    right:8rem;
+    top: 5rem;
+    height: 100%;
+}
